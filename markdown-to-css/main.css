@@ -1,0 +1,27 @@
+body {
+    background-color: #000d1a;
+    font-family: sans-serif;
+    color: white;
+}
+
+header {
+    background-color: blueviolet;
+    padding-left: 50px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: white;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    border: none;
+}
+
+tr:hover {background-color: darkslateblue;}
+
+ul{
+    list-style-position: none;
+}

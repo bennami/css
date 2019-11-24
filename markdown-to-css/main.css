@@ -5,10 +5,14 @@ body {
 }
 
 header {
-    background-color: blueviolet;
+    background-color: #b6aee2;
     padding-left: 50px;
+    margins: none;
 }
 
+a{
+    text-decoration: none;
+}
 h1{
     font-family: sans-serif;
     color: white;
@@ -24,4 +28,49 @@ tr:hover {background-color: darkslateblue;}
 
 ul{
     list-style-position: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+header h1{
+    padding-right: 40px;
+}
+
+header em{
+    font-size: 12px;
+}
+.navlinks{
+    padding-right: 30px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.navlinks li{
+   
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 20px;
+
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    background-color: rgb(156, 118, 169);
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(255,255,255,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }

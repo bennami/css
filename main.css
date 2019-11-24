@@ -13,22 +13,33 @@ header {
 a{
     text-decoration: none;
 }
+
+div img{
+    float: left;
+    margin: 40px;
+}
+
 h1{
     font-family: sans-serif;
     color: white;
 }
 
 table{
-    width: 50%;
+    width: 60%;
     border-collapse: collapse;
     border: none;
+
 }
 
-tr:hover {background-color: darkslateblue;}
-
-ul{
-    list-style-position: none;
+table li{
+    list-style-type: none;
 }
+
+tr:hover {
+    background-color: darkslateblue;
+}
+
+
 
 header{
     display: flex;
@@ -73,4 +84,53 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+}
+
+label{
+    font-size: 12px;
+}
+
+
+
+.hobbies{
+    border: 20px 20px 20px 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #b6aee2;
+    width: 400px;
+    display: block;
+
+
+
+}
+.part2{
+
+    margin: 0px;
+}
+.part2 p {
+
+    font-size: 16px;
+    width: 400px;
+
+
+
+}
+.part11{
+    margin: 20px;
+    font-size: 12px;
+    width: 50%;
+
+
+}
+
+.part1{
+    margin-bottom: inherit;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.underimg{
+    display: inline-flex;
 }
